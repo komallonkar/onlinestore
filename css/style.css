@@ -1,0 +1,340 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    width: 100%;
+}
+.nav{
+    background-color:black;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    color:white;
+    height:55px;
+    font-size:20px;
+   
+}
+.box-for-heading{
+    background:rgb(235, 62, 125);
+   
+    height:680px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color:white;
+    font-size: 50px;
+   padding:20px;
+}
+.shop-name{
+/*    background: white;*/
+    height:55px;
+    font-size: 25px;
+      width: 100px;
+    margin-left: 50px;
+    margin-top: 5px;
+    font-family: 'Cedarville Cursive', cursive;
+}
+a{
+    color:white;
+    text-decoration: none;
+    margin:10px;
+    margin-top: 20px;
+}
+.intro{
+    width:100%;
+    font-size: 40px;
+}
+.out-image{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.shop1{
+    position: absolute;
+    left:350px;
+   top:500px;
+}
+.shop2{
+    position: absolute;
+    right:350px;
+   top:500px;
+}
+.shop1,.shop2{
+    height: 60px;
+    width: 150px;
+    background: transparent;
+    color:white;
+    border:3px solid white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.trends{
+    height: 500px;
+    margin: 100px;
+    border: 1px solid black;
+    display: block;
+    
+}
+.see-what-your{
+    font-family: 'Vollkorn', serif;
+    font-size: 30px;
+    font-weight: 400;
+    
+}
+.celeb{
+    height: 450px;
+}
+.celeb-img{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+/*************dress css***********/
+
+.box{
+    height: 500px;
+  
+    margin-left:200px;
+    margin-right: 200px;
+background: brown;    
+}
+.image{
+    display: block;
+    padding: 30px;
+}
+#info{
+    font-family: 'Vollkorn', serif;
+    font-size: 40px;
+    font-weight: 500;
+    color:white;
+    
+}
+
+.shop-box{
+    height: 1200px;
+    margin:100px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.card{
+    margin: 50px;
+    height:450px;
+    width:300px;
+     border: 1px solid black;
+    
+}
+
+.temp-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.shop-img{
+    height:300px;
+    width: 280px;
+    margin:8px;
+}
+.buy-wish{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    
+}
+.fa-heart{
+    color: red;
+  
+}
+.cost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-heart:hover{
+      cursor: pointer;
+}
+#buy{
+    height: 60px;
+    width: 150px;
+    background: transparent;
+    color:black;
+    border:3px solid black;
+    font-size: 20px;
+    cursor: pointer;
+}
+/*************buy css**********/
+
+.buy{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: 700px;
+    margin: 100px;
+    border: 1px solid black;
+    
+    
+}
+.img-for-buy{
+    margin:40px;
+    
+}
+.details-product{
+     margin:40px;
+    height:550px;
+    border: 1px solid black;
+    padding: 20px;
+    width:500px;
+}
+.title{
+     font-family: 'Vollkorn', serif;
+    font-size: 40px;
+    font-weight: 500;
+    
+}
+.price{
+    color:red;
+    font-family: 'Vollkorn', serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+.more-details{
+         font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    
+}
+
+.atc{
+    height: 40px;
+    width:300px;
+    margin-left:70px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: #DF440B;
+  
+}
+.atc:hover{
+      cursor: pointer;
+}
+.quantity{
+    display: flex;
+    flex-direction: row;
+}
+.minus,.plus{
+    width: 40px;
+    height: 30px;
+   border: 1px solid black;
+    color:black;
+  font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.one{
+    width: 70px;
+    height: 30px;
+   border: 1px solid black;
+    color:black;
+  font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.minus:hover,.plus:hover{
+    cursor: pointer;
+}
+.categories{
+    margin: 40px;
+}
+
+/**********about us css**************/
+
+.box2{
+    height: 500px;
+    border: 1px solid black;
+    margin: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding:50px;
+    
+}
+
+
+
+.mission{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.other-content{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.socials{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.fa-twitter-square,.fa-facebook-square{
+    color:darkblue;
+    
+}
+
+.fab:hover{
+    cursor: pointer;
+    
+}
+
+
+.login-box{
+    height: 600px;
+
+    margin:50px 400px 0px;
+    background: purple;
+    border-radius: 2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+.showpass{
+    height: 30px;
+}
+
+
+
+
+
